@@ -1,6 +1,6 @@
 # Geser Rank Bot
 
-Geser is a Telegram bot, which increments rank for a person when a reply to his message starts with a `+` sign. To start, add @geser_rank_bot to your Telegram Chat Group.
+Geser is a Telegram bot for user ratings in Chat Groups. He increments rank for a person when a reply to his message starts with a `+` sign. To start, add @geser_rank_bot to your Telegram Chat Group.
 
 ## Features
 
