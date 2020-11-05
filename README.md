@@ -40,11 +40,6 @@ Build for you arch
 $ env GOOS=linux GOARCH=amd64 go build .
 ```
 
-Create directory for dumps
-```Bash
-$ mkdir db
-```
-
 Run
 ```Bash
 $ TG_BOT_TOKEN=1234567890:xxxYYYzzz ./geser_rank_bot
