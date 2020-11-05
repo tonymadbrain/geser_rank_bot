@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram bot for user ratings in groups
+After=network.target
+
+[Service]
+Type=simple
+Environment=TG_BOT_TOKEN=1234567890:xxxYYYzzz
+WorkingDirectory=/opt/bin
+ExecStart=/opt/bin/geser_rank_bot
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
